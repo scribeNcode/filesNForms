@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+}
+
+.formWrapper{
+    display: flex;
+    margin: 2rem auto;
+    width: 30%;
+}
+
+label{
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+input{
+    margin-bottom: 1.5rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+ select, button{
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border-radius: 0.3rem;
+ }
